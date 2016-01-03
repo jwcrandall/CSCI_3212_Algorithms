@@ -1,0 +1,12 @@
+Run Time Analysis of greedy.java algorithm
+
+greedy algorithm
+
+goes through each row of the jhagged index
+number of colums = to n
+
+traversle length of row which a has a max length of n if no -1
+
+Time complextiy
+n log(n)
+

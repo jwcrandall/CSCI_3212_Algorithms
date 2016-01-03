@@ -1,0 +1,86 @@
+# Properties file for algorithm-testing environment
+problemValueType=min
+limitExecTime=false
+maxExecTimeSeconds=3
+displayTime=true
+display=false
+printSummary=true
+
+# Currently supported problem types: setDiameter, sorting
+problemType=undirectedGraphSearch
+graphSearchTester.testLarge=false
+graphSearchTester.density=0.9
+graphSearchTester.isWeighted=false
+graphSearchTester.searchType=depthFirst
+#graphSearchTester.searchType=breadthFirst
+graphSearchTester.testCycle=false
+graphSearchTester.testConnectedComponents=true
+graphSearchTester.testArticulation=false
+graphSearchTester.testStronglyConnectedComponents=false
+graphSearchTester.testOddCycles=false
+graphSearchTester.testTopSort=false
+
+# Sorting stuff:
+dictionary=/usr/dict/words
+numProblemParameters=1
+
+# How many algorithms, and where each algorithm is located.
+numAlgorithms=1
+
+# Full path name to algorithm:
+alg0=UndirectedDepthFirstAdjList
+
+# Output scaling: one function per algorithm
+# Scale functions:
+#   F0(n) = 1.0 (no scaling)
+#   F1(n) = A*n
+#   F2(n) = A*n^2
+#   F3(n) = A*n^3
+#   F4(n) = A*log(n)
+#   F5(n) = A*n*log(n)
+#   F6(n) = A*sqrt(n)
+A0=1.0
+scale0=F0
+A1=1.0
+scale1=F0
+A2=1.0
+scale2=F0
+A3=1.0
+scale3=F0
+A4=1.0
+scale4=F0
+A5=1.0
+scale5=F0
+
+# test for correctness?
+testCorrectness=true
+
+# special tests?
+specialTest=false
+
+# test for performance?
+testPerformance=false
+# Test sizes for performance testing.
+numTests=3
+param0_testSize0=500
+param0_testSize1=1000
+param0_testSize2=1500
+param0_testSize3=2000
+param0_testSize4=2500
+
+param1_testSize0=500
+param1_testSize1=1000
+param1_testSize2=1500
+param1_testSize3=2000
+param1_testSize4=2500
+
+# Use an average of how many data sets per test size?
+runsPerTest=5
+
+# Print stuff to screen.
+printToScreen=true
+
+display=true
+debug=On
+# Time to wait for garbage collection.
+quiescentTime=1

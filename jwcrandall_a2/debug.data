@@ -1,0 +1,67 @@
+ => Current directory=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a2
+ => Full pathname=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a2/a2.props
+ => Properties file contains 48 properties
+scale8=F0
+scale7=F0
+scale6=F0
+problemValueType=min
+scale5=F0
+scale4=F0
+specialTest=false
+scale3=F0
+scale2=F0
+scale1=F0
+scale0=F0
+runsPerTest=1
+displayTime=true
+rectangleSetIntersectionTester.smallRectMin=5
+alg1=FilterTreeRectIntersection
+A8=1.0
+testPerformance=true
+alg0=NaiveRectIntersection
+A7=1.0
+A6=1.0
+A5=1.0
+rectangleSetIntersectionTester.regionSize=10000
+A4=1.0
+A3=1.0
+numTests=5
+A2=1.0
+A1=1.0
+A0=1.0
+rectangleSetIntersectionTester.largeSizeFrac=0.1
+maxExecTimeSeconds=3
+numAlgorithms=2
+debug=On
+display=true
+rectangleSetIntersectionTester.testLarge=true
+limitExecTime=false
+printToScreen=true
+rectangleSetIntersectionTester.smallRectMax=10
+printSummary=true
+param0_testSize4=9000
+param0_testSize3=7000
+param0_testSize2=5000
+param0_testSize1=3000
+param0_testSize0=1000
+quiescentTime=0
+dictionary=/usr/dict/words
+testCorrectness=true
+numProblemParameters=1
+problemType=rectangleSetIntersection
+Loading algorithm# 0 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a2/NaiveRectIntersection ... 
+ ... completed.
+Loading algorithm# 1 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a2/FilterTreeRectIntersection ... 
+ ... completed.
+ALGORITHM: Joseph Crandall's implementation of NaiveRectIntersection
+ => passed: Test 1: no intersections
+ => passed: Test 2: 5 intersections
+ => passed: Test 3: 18 intersections
+ => passed: Test 4: 10 random tests with 8 in each set
+ => passed: Test 5: 10 random tests with 1000 in each set
+ALGORITHM: Joseph Crandall's implementation of FilterTreeRectIntersection 
+ => passed: Test 1: no intersections
+ => passed: Test 2: 5 intersections
+ => passed: Test 3: 18 intersections
+ => passed: Test 4: 10 random tests with 8 in each set
+ => passed: Test 5: 10 random tests with 1000 in each set

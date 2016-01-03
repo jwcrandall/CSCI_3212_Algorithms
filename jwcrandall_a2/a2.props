@@ -1,0 +1,82 @@
+# Properties file for algorithm-testing environment
+problemValueType=min
+limitExecTime=false
+maxExecTimeSeconds=3
+displayTime=true
+display=false
+printSummary=true
+
+# Currently supported problem types: setDiameter, sorting
+problemType=rectangleSetIntersection
+rectangleSetIntersectionTester.testLarge=true
+rectangleSetIntersectionTester.largeSizeFrac=0.1
+# Default regionSize=1 (unit square)
+rectangleSetIntersectionTester.regionSize=10000
+rectangleSetIntersectionTester.smallRectMin=5
+rectangleSetIntersectionTester.smallRectMax=10
+
+# Sorting stuff:
+dictionary=/usr/dict/words
+numProblemParameters=1
+
+# How many algorithms, and where each algorithm is located.
+numAlgorithms=2
+
+# Full path name to algorithm:
+alg0=NaiveRectIntersection
+alg1=FilterTreeRectIntersection
+
+# Output scaling: one function per algorithm
+# Scale functions:
+#   F0(n) = 1.0 (no scaling)
+#   F1(n) = A*n
+#   F2(n) = A*n^2
+#   F3(n) = A*n^3
+#   F4(n) = A*log(n)
+#   F5(n) = A*n*log(n)
+#   F6(n) = A*sqrt(n)
+A0=1.0
+scale0=F0
+A1=1.0
+scale1=F0
+A2=1.0
+scale2=F0
+A3=1.0
+scale3=F0
+A4=1.0
+scale4=F0
+A5=1.0
+scale5=F0
+A6=1.0
+scale6=F0
+A7=1.0
+scale7=F0
+A8=1.0
+scale8=F0
+
+# test for correctness?
+testCorrectness=true
+
+# special tests?
+specialTest=false
+
+# test for performance?
+testPerformance=true
+# Test sizes for performance testing.
+numTests=5
+param0_testSize0=1000
+param0_testSize1=3000
+param0_testSize2=5000
+param0_testSize3=7000
+param0_testSize4=9000
+
+# Use an average of how many data sets per test size?
+runsPerTest=1
+
+# Print stuff to screen.
+printToScreen=true
+
+display=true
+debug=On
+# Time to wait for garbage collection.
+quiescentTime=0

@@ -1,0 +1,56 @@
+ => Current directory=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a3
+ => Full pathname=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a3/mtsp.props
+ => Properties file contains 44 properties
+problemValueType=min
+scale5=F0
+scale4=F0
+specialTest=false
+scale3=F0
+scale2=F0
+scale1=F0
+scale0=F0
+runsPerTest=5
+displayTime=true
+alg2=Annealing
+param1_testSize4=2500
+alg1=Greedy
+param1_testSize3=2000
+testPerformance=false
+alg0=Naive
+param1_testSize2=1500
+param1_testSize1=1000
+param1_testSize0=500
+A5=1.0
+A4=1.0
+A3=1.0
+numTests=3
+A2=1.0
+A1=1.0
+A0=1.0
+MTSPTester.testLarge=false
+maxExecTimeSeconds=3
+numAlgorithms=3
+debug=On
+display=true
+limitExecTime=false
+printToScreen=true
+printSummary=true
+param0_testSize4=2500
+param0_testSize3=2000
+param0_testSize2=1500
+param0_testSize1=1000
+param0_testSize0=500
+quiescentTime=1
+dictionary=/usr/dict/words
+testCorrectness=true
+numProblemParameters=2
+problemType=MTSP
+Loading algorithm# 0 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a3/Naive ... 
+ ... completed.
+Loading algorithm# 1 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a3/Greedy ... 
+ ... completed.
+Loading algorithm# 2 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall_a3/Annealing ... 
+ ... completed.
+ALGORITHM: Joseph Crandall's implementation of Naive Traveling Salesman
+ALGORITHM: Joseph Crandall's implementation of Greedy Traveling Salesman
+ALGORITHM: Joseph Crandall's implementation of Annealing Traveling Salesman

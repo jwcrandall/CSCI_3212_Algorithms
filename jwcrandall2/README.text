@@ -1,0 +1,85 @@
+REGULAR code
+
+// Interface sorting algorithm methods
+    public void sortInPlace(int[] data){
+        if(data.length < 2)
+        {
+            // We consider the array already sorted, no change is done
+            return;
+        }
+
+        //n is the array length
+        int n = data.length;
+        for(int size = 1; size < n; size = size + size){
+
+            for(int low = 0; low < n-1; low += size+size){
+
+                simpleMerge(data, low, low+size-1, Math.min(low+size+size-1,n-1));
+            }
+        }
+    }
+
+
+
+
+
+Pseudocode
+
+Algorithm: sortInPlace()
+Input: an unsorted array
+    if (array length < 2 )                                                          //sorted array of size one
+        return
+    for (size of 1 to array size incrase by size plus size)
+        for (low of 0 to low < size of array - 1 increase by low = size+size)
+            merge(array, low, middle, high)                                         //call merge function
+
+
+
+
+
+
+
+
+
+
+OPTIMIZED
+// Interface sorting algorithm methods
+    public void sortInPlace(int[] data){
+        if(data.length < 2)
+        {
+            // We consider the array already sorted, no change is done
+            return;
+        }
+
+        if(data.length < 1000){
+            //this.sortInPlaceInsertion(data);
+            this.sortInPlaceSelection(data);
+        }
+
+        //n is the array length
+        int n = data.length;
+        for(int size = 1; size < n; size = size + size){
+
+            for(int low = 0; low < n-1; low += size+size){
+
+                simpleMerge(data, low, low+size-1, Math.min(low+size+size-1,n-1));
+            }
+        }
+    }
+
+
+
+Pseudocode
+
+Algorithm: sortInPlace()
+Input: an unsorted array
+    if (array length < 2 )                                                          //sorted array of size one
+        return
+    if (size of array is less than 1000)
+        Insertion or Selection                                                      // call insertion or selection sort based on what is not commented out
+
+    for (size of 1 to array size incrase by size plus size)
+        for (low of 0 to low < size of array - 1 increase by low = size+size)
+            merge(array, low, middle, high)                                         //call merge function
+
+

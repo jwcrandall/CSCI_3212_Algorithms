@@ -1,0 +1,61 @@
+ => Current directory=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall5
+ => Full pathname=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall5/mst.props
+ => Properties file contains 45 properties
+problemValueType=min
+scale5=F0
+scale4=F0
+specialTest=false
+scale3=F0
+scale2=F0
+scale1=F0
+scale0=F0
+runsPerTest=5
+displayTime=true
+param1_testSize4=2500
+param1_testSize3=2000
+testPerformance=false
+alg0=Kruskal
+param1_testSize2=1500
+param1_testSize1=1000
+param1_testSize0=500
+A5=1.0
+A4=1.0
+A3=1.0
+numTests=3
+A2=1.0
+A1=1.0
+A0=1.0
+spanningTreeTester.density=0.9
+maxExecTimeSeconds=3
+numAlgorithms=1
+debug=On
+display=true
+limitExecTime=false
+printToScreen=true
+printSummary=true
+spanningTreeTester.testDirected=false
+param0_testSize4=2500
+spanningTreeTester.testAdjList=false
+param0_testSize3=2000
+param0_testSize2=1500
+param0_testSize1=1000
+param0_testSize0=500
+quiescentTime=1
+dictionary=/usr/dict/words
+testCorrectness=true
+spanningTreeTester.testLarge=false
+numProblemParameters=1
+problemType=spanningTree
+Loading algorithm# 0 name=/Users/josephcrandall/Documents/GW_Undergrad/2015_3Fall/CSCI_3212-11_Algorithms/cs3212/jwcrandall5/Kruskal ... 
+ ... completed.
+ALGORITHM: Joseph Crandall's implementation of Kruskal's algorithm mim tree
+Kruskal@4dc63996
+ => passed: Test1: 2 vertices
+Kruskal@4dc63996
+ => passed: Test2: 3 vertices
+Kruskal@4dc63996
+ => passed: Test3: 3 vertices
+Kruskal@4dc63996
+ => passed: Test4: 3 vertices
+Kruskal@4dc63996
+ => passed: Test5: 8 vertices

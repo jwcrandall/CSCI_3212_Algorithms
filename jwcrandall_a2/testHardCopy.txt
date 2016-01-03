@@ -1,0 +1,98 @@
+
+The five rectangle make tree test
+
+Fnode(ID=0,level=0): left=0 midX=45 right=91 bot=0 midY=47 top=94
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(89,57), bottomRight=(91,37)], Rectangle[ID=0: topLeft=(12,80), bottomRight=(45,66)]]
+
+Fnode(ID=3,level=1): left=0 midX=22 right=45 bot=47 midY=70 top=94
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(18,70), bottomRight=(32,60)]]
+
+Fnode(ID=4,level=1): left=45 midX=68 right=91 bot=47 midY=70 top=94
+Fnode Rectanlge List
+[]
+
+Fnode(ID=5,level=2): left=68 midX=79 right=91 bot=70 midY=82 top=94
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(79,94), bottomRight=(82,90)]]
+
+Fnode(ID=1,level=1): left=0 midX=22 right=45 bot=0 midY=23 top=47
+Fnode Rectanlge List
+[]
+
+Fnode(ID=2,level=2): left=22 midX=33 right=45 bot=23 midY=35 top=47
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(28,40), bottomRight=(39,29)]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+partyTime@joes rectangle make tree test
+
+Fnode(ID=6,level=0): left=0 midX=499 right=998 bot=0 midY=900 top=1800
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(996,1800), bottomRight=(998,15)], Rectangle[ID=0: topLeft=(189,530), bottomRight=(718,515)], Rectangle[ID=0: topLeft=(471,817), bottomRight=(637,504)], Rectangle[ID=0: topLeft=(961,1464), bottomRight=(970,337)], Rectangle[ID=0: topLeft=(69,275), bottomRight=(880,786)], Rectangle[ID=0: topLeft=(403,793), bottomRight=(551,606)], Rectangle[ID=0: topLeft=(803,1297), bottomRight=(975,365)], Rectangle[ID=0: topLeft=(778,921), bottomRight=(821,815)], Rectangle[ID=0: topLeft=(479,501), bottomRight=(761,873)], Rectangle[ID=0: topLeft=(8,155), bottomRight=(822,786)], Rectangle[ID=0: topLeft=(612,1205), bottomRight=(641,63)], Rectangle[ID=0: topLeft=(790,1236), bottomRight=(964,66)], Rectangle[ID=0: topLeft=(495,759), bottomRight=(810,734)], Rectangle[ID=0: topLeft=(213,424), bottomRight=(797,644)], Rectangle[ID=0: topLeft=(808,1697), bottomRight=(817,79)], Rectangle[ID=0: topLeft=(196,226), bottomRight=(767,856)], Rectangle[ID=0: topLeft=(618,938), bottomRight=(737,284)], Rectangle[ID=0: topLeft=(792,1228), bottomRight=(990,476)], Rectangle[ID=0: topLeft=(243,312), bottomRight=(817,731)], Rectangle[ID=0: topLeft=(750,1030), bottomRight=(802,142)], Rectangle[ID=0: topLeft=(132,587), bottomRight=(856,248)], Rectangle[ID=0: topLeft=(944,1252), bottomRight=(964,579)], Rectangle[ID=0: topLeft=(890,969), bottomRight=(940,850)], Rectangle[ID=0: topLeft=(76,301), bottomRight=(543,759)], Rectangle[ID=0: topLeft=(108,211), bottomRight=(823,623)], Rectangle[ID=0: topLeft=(792,905), bottomRight=(876,263)], Rectangle[ID=0: topLeft=(23,138), bottomRight=(625,774)], Rectangle[ID=0: topLeft=(250,651), bottomRight=(687,518)], Rectangle[ID=0: topLeft=(491,1301), bottomRight=(869,175)], Rectangle[ID=0: topLeft=(978,1453), bottomRight=(978,70)], Rectangle[ID=0: topLeft=(422,642), bottomRight=(887,399)], Rectangle[ID=0: topLeft=(410,711), bottomRight=(958,657)], Rectangle[ID=0: topLeft=(858,1363), bottomRight=(894,433)], Rectangle[ID=0: topLeft=(423,807), bottomRight=(960,352)], Rectangle[ID=0: topLeft=(700,1149), bottomRight=(970,224)], Rectangle[ID=0: topLeft=(20,51), bottomRight=(526,867)], Rectangle[ID=0: topLeft=(869,1146), bottomRight=(900,189)], Rectangle[ID=0: topLeft=(913,1292), bottomRight=(962,185)], Rectangle[ID=0: topLeft=(721,1165), bottomRight=(812,92)], Rectangle[ID=0: topLeft=(595,908), bottomRight=(712,587)], Rectangle[ID=0: topLeft=(521,1117), bottomRight=(783,90)], Rectangle[ID=0: topLeft=(275,458), bottomRight=(599,490)], Rectangle[ID=0: topLeft=(226,575), bottomRight=(518,464)], Rectangle[ID=0: topLeft=(129,196), bottomRight=(643,479)], Rectangle[ID=0: topLeft=(530,1276), bottomRight=(874,254)], Rectangle[ID=0: topLeft=(120,303), bottomRight=(665,578)], Rectangle[ID=0: topLeft=(431,461), bottomRight=(627,792)], Rectangle[ID=0: topLeft=(250,780), bottomRight=(940,422)], Rectangle[ID=0: topLeft=(874,907), bottomRight=(875,744)], Rectangle[ID=0: topLeft=(714,1129), bottomRight=(874,380)], Rectangle[ID=0: topLeft=(836,991), bottomRight=(848,192)], Rectangle[ID=0: topLeft=(238,701), bottomRight=(952,517)], Rectangle[ID=0: topLeft=(97,511), bottomRight=(510,92)], Rectangle[ID=0: topLeft=(741,1585), bottomRight=(839,13)], Rectangle[ID=0: topLeft=(954,1166), bottomRight=(964,440)], Rectangle[ID=0: topLeft=(821,1072), bottomRight=(893,338)], Rectangle[ID=0: topLeft=(28,473), bottomRight=(600,61)], Rectangle[ID=0: topLeft=(738,928), bottomRight=(902,457)], Rectangle[ID=0: topLeft=(105,118), bottomRight=(898,902)], Rectangle[ID=0: topLeft=(236,573), bottomRight=(571,519)], Rectangle[ID=0: topLeft=(949,969), bottomRight=(994,534)], Rectangle[ID=0: topLeft=(107,108), bottomRight=(609,993)], Rectangle[ID=0: topLeft=(55,143), bottomRight=(916,504)], Rectangle[ID=0: topLeft=(91,131), bottomRight=(696,320)], Rectangle[ID=0: topLeft=(954,1435), bottomRight=(964,485)], Rectangle[ID=0: topLeft=(990,1123), bottomRight=(991,301)]]
+
+Fnode(ID=11,level=1): left=0 midX=249 right=499 bot=900 midY=1350 top=1800
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(216,301), bottomRight=(401,909)], Rectangle[ID=0: topLeft=(174,232), bottomRight=(348,904)]]
+
+Fnode(ID=12,level=2): left=0 midX=124 right=249 bot=900 midY=1125 top=1350
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(118,165), bottomRight=(206,933)]]
+
+Fnode(ID=15,level=1): left=499 midX=748 right=998 bot=900 midY=1350 top=1800
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(693,713), bottomRight=(991,961)]]
+
+Fnode(ID=17,level=2): left=499 midX=623 right=748 bot=900 midY=1125 top=1350
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(557,605), bottomRight=(577,907)]]
+
+Fnode(ID=16,level=2): left=748 midX=873 right=998 bot=900 midY=1125 top=1350
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(943,943), bottomRight=(945,1000)], Rectangle[ID=0: topLeft=(895,904), bottomRight=(951,983)]]
+
+Fnode(ID=7,level=1): left=0 midX=249 right=499 bot=0 midY=450 top=900
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(175,349), bottomRight=(320,569)], Rectangle[ID=0: topLeft=(21,76), bottomRight=(460,866)], Rectangle[ID=0: topLeft=(216,301), bottomRight=(401,909)], Rectangle[ID=0: topLeft=(112,755), bottomRight=(289,357)], Rectangle[ID=0: topLeft=(267,839), bottomRight=(484,80)], Rectangle[ID=0: topLeft=(209,228), bottomRight=(310,413)], Rectangle[ID=0: topLeft=(199,826), bottomRight=(250,331)], Rectangle[ID=0: topLeft=(400,509), bottomRight=(487,136)], Rectangle[ID=0: topLeft=(272,589), bottomRight=(354,99)], Rectangle[ID=0: topLeft=(226,293), bottomRight=(270,269)], Rectangle[ID=0: topLeft=(391,609), bottomRight=(418,414)], Rectangle[ID=0: topLeft=(174,232), bottomRight=(348,904)], Rectangle[ID=0: topLeft=(7,53), bottomRight=(278,258)], Rectangle[ID=0: topLeft=(193,214), bottomRight=(307,542)]]
+
+Fnode(ID=13,level=2): left=0 midX=124 right=249 bot=450 midY=675 top=900
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(118,165), bottomRight=(206,933)], Rectangle[ID=0: topLeft=(39,125), bottomRight=(246,867)], Rectangle[ID=0: topLeft=(50,363), bottomRight=(218,639)]]
+
+Fnode(ID=8,level=2): left=249 midX=374 right=499 bot=450 midY=675 top=900
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(370,428), bottomRight=(467,833)], Rectangle[ID=0: topLeft=(282,385), bottomRight=(483,563)], Rectangle[ID=0: topLeft=(336,455), bottomRight=(336,865)], Rectangle[ID=0: topLeft=(419,454), bottomRight=(437,712)]]
+
+Fnode(ID=14,level=2): left=0 midX=124 right=249 bot=0 midY=225 top=450
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(118,165), bottomRight=(206,933)], Rectangle[ID=0: topLeft=(37,130), bottomRight=(82,131)], Rectangle[ID=0: topLeft=(39,125), bottomRight=(246,867)], Rectangle[ID=0: topLeft=(50,363), bottomRight=(218,639)]]
+
+Fnode(ID=9,level=2): left=249 midX=374 right=499 bot=0 midY=225 top=450
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(370,428), bottomRight=(467,833)], Rectangle[ID=0: topLeft=(282,385), bottomRight=(483,563)]]
+
+Fnode(ID=10,level=1): left=499 midX=748 right=998 bot=0 midY=450 top=900
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(600,702), bottomRight=(978,207)], Rectangle[ID=0: topLeft=(605,785), bottomRight=(632,7)], Rectangle[ID=0: topLeft=(614,686), bottomRight=(967,395)], Rectangle[ID=0: topLeft=(693,713), bottomRight=(991,961)], Rectangle[ID=0: topLeft=(702,771), bottomRight=(826,549)], Rectangle[ID=0: topLeft=(630,700), bottomRight=(781,883)], Rectangle[ID=0: topLeft=(626,661), bottomRight=(975,593)], Rectangle[ID=0: topLeft=(848,885), bottomRight=(861,10)]]
+
+Fnode(ID=18,level=2): left=499 midX=623 right=748 bot=450 midY=675 top=900
+Fnode Rectanlge List
+[Rectangle[ID=0: topLeft=(557,605), bottomRight=(577,907)], Rectangle[ID=0: topLeft=(563,563), bottomRight=(652,632)]]
