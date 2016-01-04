@@ -1,0 +1,18 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class AdjacencyList
+{
+	public final Node[] nodes;
+	
+	public AdjacencyList(int nodeCount)
+	{
+		nodes = new Node[ nodeCount ];
+	}
+}
+
+public class Node
+{
+	public final int id;
+	public final List<Node> neighbors = new ArrayList<>();
+}

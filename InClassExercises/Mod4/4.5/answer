@@ -1,0 +1,3 @@
+The keys (which are 2D coordinates), are hashed according to the algorithm specified in exercise 4.4.
+
+The hashed keys are then put into a normal binary tree. The hashed keys are ordered first by x value, then by y; for example, the key "(2, 3)" is less than "(2, 4)" but greater than "(2, 2)" and "(1, 4)".

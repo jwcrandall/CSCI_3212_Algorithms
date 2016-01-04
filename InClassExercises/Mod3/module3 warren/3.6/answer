@@ -1,0 +1,14 @@
+A full, complete, and balanced binary tree has 2^i nodes at level i.
+If it's height is h, then the total number of nodes is given by the
+summation sum( i = 0, h, 2^i ) = (2^(i+1))-1.
+
+By reversing the above equation, you know that in this tree of height h,
+there are n = log(h+1)-1. This value of n is always less than log(n), and a 
+balanced binary tree will never have more than that many nodes, so
+the height of a balanced binary tree is O(log n).
+
+
+A similar ternary tree has 3^i nodes at level i. At height h, the total
+number of nodes is given by the summation
+sum( i = 0, h, 3^i ) = ((3^(h+1))-1)/2. By reversing this equation, we know
+that the height of a ternary node with n nodes is h = log3(2n+1)-1.

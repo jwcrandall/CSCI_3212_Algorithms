@@ -1,0 +1,50 @@
+Insert A:
+A
+
+Insert B:
+A
+ \
+  B
+
+Insert C:
+A
+ \
+  B
+ /
+C
+
+Insert D:
+  A
+   \
+    B
+   /
+  C
+ /
+D
+
+Insert E:
+    A
+     \
+      B
+     /
+    C
+   /
+  D
+ /
+E
+
+Insert F:
+    A
+     \
+      B
+     /
+    C
+   /
+  D
+ /
+E
+ \
+  F
+
+Because the first 4 bits of these letters are all the same, you end up with a very unbalanced tree. If you were to use the "reverse ascii" method, you would end
+up with a more balanced tree.

@@ -1,0 +1,36 @@
+ Algorithm: leftBidirectionalPartition (data, left, right)
+  Input: data array, indices left and right.
+
+      // The partitioning element is the leftmost element:
+  1.  partitionElement = data[left];
+
+      // Start bidirectional scan from next-to-left, and right end.
+  2.  LC = left+1;  RC = right;
+
+      // Scan until cursors cross.
+  3.  while (true)
+
+        // As long as elements to the right are larger, skip over them:
+  4.    while data[RC] > partitionElement
+          RC = RC - 1;
+
+        // As long as elements on the left are smaller, skip over them:
+  5.    while (LC <= right) and (data[LC] < partitionElement)
+          LC = LC + 1;
+
+        // We've found the first pair to swap:
+  6.    if (LC < RC)
+  7.      Swap elements at positions LC and RC;
+  8.      LC = LC + 1;    RC = RC - 1;
+  9.    else
+          // Otherwise, if the cursors cross, we're done.
+  10.     break out of loop;
+  11.   endif
+
+  12. endwhile
+
+  13. Swap RC-th element with leftmost.
+
+  14. return RC;
+
+  Output: new position of partition element

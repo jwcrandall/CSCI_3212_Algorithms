@@ -1,0 +1,16 @@
+Algorithm: iterativeMax(tree)
+	node = tree.root
+	
+	while node.right != null
+		node = node.right
+	
+	return node
+
+Algorithm: recursiveMax(tree)
+	return max(tree.root)
+
+Method: max(node)
+	if node.right == null
+		return node
+	else
+		return max(node.right)

@@ -1,0 +1,19 @@
+Algorithm: subSequences( array )
+	//This algorithm loops through the array twice, so it runs in
+	//O(n^2) time
+	seq = ( begin = 0, end = 0, value = array[0] )
+	for begin = 0 -> array.length-1
+		for end = 0 -> array.length
+			new_seq = createSequence(begin, end)
+			seq = getBestSequence(new_seq, seq)
+		endfor
+	endfor
+	
+	return seq
+
+Method: getBestSequence(s1, s2)
+	if s1.value > s2.value
+		return s1
+	else
+		return s2
+	endif

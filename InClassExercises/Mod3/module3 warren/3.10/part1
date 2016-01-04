@@ -1,0 +1,7 @@
+initial -> A B C D E
+get(E)  -> E A B C D
+get(E)  -> E A B C D
+get(D)  -> D E A B C
+get(E)  -> E D A B C
+get(B)  -> B E D A C
+get(E)  -> E B D A C

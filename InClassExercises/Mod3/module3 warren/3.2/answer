@@ -1,0 +1,27 @@
+Algorithm: iterativeSearch(tree, key)
+	node = tree.node
+	
+	while true
+		if node == null
+			return null
+		
+		if node.key = key
+			return node
+		else if key < node.key
+			node = node.left
+		else
+			node = node.right
+
+Algorithm: recursiveSearch(tree, key)
+	return search(tree.root, key)
+
+Method: search(node, key)
+	if node == null
+		return null
+	
+	if node.key = key
+		return node
+	else if key < node.key
+		return search(node.left, key)
+	else
+		return search(node.right, key)

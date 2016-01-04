@@ -1,0 +1,2 @@
+In a full trie, the keys cannot be stored in non-leaf values. This means that each key of length n bits is preceded by (n-1) inner nodes; in other words,
+every single key wastes at least (n-1) nodes of space. This is a linear function; the wasted space is O(n).

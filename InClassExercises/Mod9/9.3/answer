@@ -1,0 +1,5 @@
+Because the vertices and edges in a network are not constant; computers
+join and leave the network, connections between nodes fail, etc. If 
+you only calculating the routes once, you may end up forwarding traffic
+to machines that are no longer on the network along routes that no longer
+work.

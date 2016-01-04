@@ -1,0 +1,8 @@
+Algorithm: sjfScheduler(tasks[], processorCount)
+	processorJobList = new Array[ processorCount ]
+	
+	for each processor "p"
+		processorJobList[p] = processorJobList[p-1] + (tasks.length / processorCount);
+	endfor
+	
+	return processorJobList

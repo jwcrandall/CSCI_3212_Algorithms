@@ -1,0 +1,15 @@
+First letter of string:
+=======================
+
+Uniqueness: This is not very unique at all; any words that begin with with the same letter will have the same signature.
+Brevity: The signature is very short; it is always a single character.
+Efficiency: signature() can be implemented in O(1) time
+Order-preservation: This signature is order preserving.
+
+Concatenation of ascii codes:
+=============================
+
+Uniqueness: This signature is unique; there are no two words with the same signature.
+Brevity: The signature is not necessarily brief; it increases in length with the length of the word.
+Efficiency: signature() can be implemented in O(n) time
+Order-preservation: This signature is not order preserving.

@@ -1,0 +1,2 @@
+cell_x = (int)( (x - minx) / m )
+cell_y = (int)( (y - miny) / m )

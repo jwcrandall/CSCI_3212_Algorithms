@@ -1,0 +1,4 @@
+g(n) rises above f(n) at around n = 35.
+
+You can derive this by hand by setting f(n) equal to g(n), then solving
+for n.

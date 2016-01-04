@@ -1,0 +1,6 @@
+Assuming that the size of the array to be sorted is 10 (as it is in the previous example), the stack looks like this after the loop runs 5 times:
+
+[0, 1]
+[1, 2]
+[2, 5]
+[5, 10]

@@ -1,0 +1,6 @@
+A single bit can represent 2 unique values.
+Two bits can represent 2^2 = 4 unique values.
+
+x bits can represent n = 2^x unique values. That means that x = log2(n).
+
+Therefore, given n unique keys, you need log2(n) bits to store them.
